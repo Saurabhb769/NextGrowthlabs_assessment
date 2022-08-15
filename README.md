@@ -14,6 +14,5 @@ Solution = Backpropogation is tool which is used for increase accuracy of algori
 
            Handling dataset with 4 parameters have null values more than 40%.
            Solution= as more than 40% are missing value means its best to drop that parameters from the dataset.
-                     but if the domain criteria is more for null values we can fill it by KNN imputation method or filling nan values with median or mode or mean(if dataset has not contain outliers.
-                     and also if that parameters are important for modelling then we can fill that null values by above method.
+           but if the domain criteria is more for null values we can fill it by KNN imputation method or filling nan values with median or mode or mean(if dataset has              not contain outliers.And also if that parameters are important for modelling then we can fill that null values by above method.
 
