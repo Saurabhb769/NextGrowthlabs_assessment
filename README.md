@@ -12,5 +12,8 @@ Solution = Backpropogation is tool which is used for increase accuracy of algori
            with the gradient of the final layer of weights being calculated first and the gradient of the first layer of weights being calculated last. 
            Partial computations of the gradient from one layer are reused in the computation of the gradient for the previous layer. This backwards flow of the error                information allows for efficient computation of the gradient at each layer versus the naive approach of calculating the gradient of each layer separately.
 
-
+           Handling dataset with 4 parameters have null values more than 40%.
+           Solution= as more than 40% are missing value means its best to drop that parameters from the dataset.
+                     but if the domain criteria is more for null values we can fill it by KNN imputation method or filling nan values with median or mode or mean(if dataset has not contain outliers.
+                     and also if that parameters are important for modelling then we can fill that null values by above method.
 
